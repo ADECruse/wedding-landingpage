@@ -11,39 +11,53 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/output.css" />
+    <style>
+      body {
+        font-family: "Open Sans", sans-serif;
+      }
+      .font-great-vibes {
+        font-family: "Great Vibes", cursive;
+      }
+    </style>
   </head>
-  <body>
-    <header class="header">
+  <body class="bg-[#fffaf6] text-[#333] m-0">
+    <header class="bg-[#f7e6dc] text-center pb-8 px-0 lg:py-8 lg:px-6">
       <img
-        class="header__image"
         src="images/axel-katharina-standing.jpeg"
-        alt=""
+        alt="Couple photo"
+        class="w-full max-w-3xl h-auto max-h-[250px] object-cover mx-auto mb-8 lg:rounded-lg lg:max-h-[550px]"
       />
-      <h1 class="header__title">Katharina & Axel</h1>
-      <p class="header__subtitle">We're getting married!</p>
+      <h1 class="font-great-vibes text-4xl m-0 lg:text-5xl">
+        Katharina & Axel
+      </h1>
+      <p class="text-xl mt-2">We're getting married!</p>
     </header>
 
-    <main class="main">
-      <section class="section">
-        <h2 class="section__title">Our Love Story</h2>
+    <main class="max-w-3xl mx-auto py-8 px-6">
+      <section class="mb-8">
+        <h2 class="text-2xl font-bold mb-2">Our Love Story</h2>
         <p>
-          A short description of how you met, your honeymoon in africa etc etc
+          A short description of how you met, your Honeymoon etc. Lorem ipsum
+          dolor, sit amet consectetur adipisicing elit. Assumenda vel eaque
+          veniam delectus, illum, repudiandae minima laboriosam corporis
+          consectetur praesentium exercitationem, ratione ducimus quos possimus
+          perferendis aliquam quibusdam nostrum modi.
         </p>
       </section>
 
-      <!-- <section class="section">
-        <h2 class="section__title">Wedding Details</h2>
+      <!-- <section class="mb-8">
+        <h2 class="text-2xl font-bold mb-2">Wedding Details</h2>
         <p>Date: [Insert Date]</p>
         <p>Location: [Insert Venue Name & Address]</p>
       </section> -->
 
-      <section class="section">
-        <h2 class="section__title">Donate</h2>
+      <section class="mb-8">
+        <h2 class="text-2xl font-bold mb-2">Donate</h2>
         <p>
-          If you'd like to contribute to our honeymoon, feel free to use the
-          PayPal button below.
+          If you'd like to contribute to our Honeymoon together, feel free to
+          use the PayPal button below.
         </p>
-        <div class="donate">
+        <div class="text-center mt-8">
           <!-- Replace YOURPAYPALID with actual ID -->
           <form
             action="https://www.paypal.com/donate"
@@ -53,14 +67,28 @@
             <input type="hidden" name="business" value="YOURPAYPALID" />
             <input type="hidden" name="no_recurring" value="0" />
             <input type="hidden" name="currency_code" value="EUR" />
-            <input type="submit" value="Donate via PayPal" class="button" />
+            <input
+              type="submit"
+              value="Donate via PayPal"
+              class="bg-[#0070ba] text-white text-base px-5 py-2 rounded hover:bg-[#005c99] cursor-pointer"
+            />
           </form>
         </div>
       </section>
     </main>
 
-    <footer class="footer">
+    <footer class="text-center text-sm py-8 px-6 bg-[#f7e6dc] text-[#333]">
       <p>Thank you for being part of our special day! ❤️</p>
+      <p class="mt-2">
+        Created with love by
+        <a
+          href="https://alancruse.me"
+          class="text-blue-600 hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Alan Cruse</a
+        >
+      </p>
     </footer>
 
     <script>
