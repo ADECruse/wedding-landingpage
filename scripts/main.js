@@ -1,0 +1,2 @@
+const userLang = navigator.language;
+
