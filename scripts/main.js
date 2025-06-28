@@ -1,6 +1,6 @@
 console.log("Wedding page loaded");
-const userLang = navigator.language.slice(0, 2);
-console.log(userLang);
+const browserLang = navigator.language.slice(0, 2);
+console.log(browserLang);
 
 langEn = document.querySelectorAll("[data-lang='en']");
 langDe = document.querySelectorAll("[data-lang='de']");
@@ -8,7 +8,7 @@ console.log(langEn);
 console.log(langDe);
 
 function setContentLanguage(params) {
-    if (userLang == "en") {
+    if (browserLang == "en") {
         langDe.forEach(element => {
             element.style.display = "none";
         });
