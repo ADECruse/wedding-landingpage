@@ -187,31 +187,46 @@
         </p>
         <p data-lang="en">Thank you for being part of it! 🧡</p>
         <p data-lang="de">Vielen Dank, dass Ihr Teil davon seid! 🧡</p>
-        <div class="text-center mt-8">
-          <!-- Replace YOURPAYPALID with actual ID -->
-          <form
-            action="https://www.paypal.com/donate"
-            method="post"
+        <div class="text-center mt-8 flex justify-center">
+          <a
+            href="https://www.paypal.me/AxelMW86"
             target="_blank"
+            class="bg-[#0070ba] text-white px-5 py-2 w-3xs rounded hover:bg-[#005c99] inline-block"
+            data-lang="en"
           >
-            <input type="hidden" name="business" value="YOURPAYPALID" />
-            <input type="hidden" name="no_recurring" value="0" />
-            <input type="hidden" name="currency_code" value="EUR" />
-            <input
-              type="submit"
-              value="Contribute to our honeymoon adventure"
-              class="bg-[#0070ba] text-white text-base px-5 py-2 rounded hover:bg-[#005c99] cursor-pointer"
-            />
-          </form>
+            Contribute
+          </a>
+          <a
+            href="https://www.paypal.me/AxelMW86"
+            target="_blank"
+            class="bg-[#0070ba] text-white px-5 py-2 w-3xs rounded hover:bg-[#005c99] inline-block"
+            data-lang="de"
+          >
+            Unterstützen
+          </a>
         </div>
       </section>
     </main>
 
     <footer class="text-center text-sm py-8 px-6 bg-[#f7e6dc] text-[#333]">
-      <p data-lang="en">Thank you for being part of our special day! ❤️</p>
-      <button class="" onclick="setLanguage('en')" title="English">🇬🇧</button>
-      <button class="" onclick="setLanguage('de')" title="Deutsch">🇩🇪</button>
-      <p class="mt-2" data-lang="en">
+      <!-- <p data-lang="en">Thank you for being part of our special day! ❤️</p> -->
+      <!-- <button class="" onclick="setLanguage('en')" title="English">🇬🇧</button>
+      <button class="" onclick="setLanguage('de')" title="Deutsch">🇩🇪</button> -->
+      <button
+        onclick="setLanguage('en')"
+        class="text-2xl px-4 py-2 rounded-full bg-white shadow-md hover:bg-gray-100 transition"
+        aria-label="Switch to English"
+      >
+        🇬🇧
+      </button>
+      <button
+        onclick="setLanguage('de')"
+        class="text-2xl px-4 py-2 rounded-full bg-white shadow-md hover:bg-gray-100 transition"
+        aria-label="Switch to German"
+      >
+        🇩🇪
+      </button>
+      <p class="mt-6">
         Created with love by
         <a
           href="https://alancruse.me"
