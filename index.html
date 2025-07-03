@@ -36,10 +36,21 @@
 
     <main class="max-w-3xl mx-auto py-8 px-6">
       <section class="flex flex-col justify-center items-center mb-8 space-y-5">
-        <h2 class="text-2xl font-bold mb-2">Our Wedding - August 16, 2025</h2>
-        <p>We're beyond excited to celebrate this special day with you!</p>
-        <p>Here's all the key information about the schedule:</p>
-        <h3 tex>📍Civil Wedding Ceremony</h3>
+        <h2 class="text-2xl font-bold mb-2" data-lang="en">
+          Our Wedding - August 16, 2025
+        </h2>
+        <h2 class="text-2xl font-bold mb-2" data-lang="de">
+          Unsere Hochzeit am 16. August 2025
+        </h2>
+        <p data-lang="en">
+          We're beyond excited to celebrate this special day with you!
+        </p>
+        <p data-lang="de">
+          Wir freuen uns riesig, diesen besonderen Tag mit Euch zu feiern!
+        </p>
+        <p data-lang="en">Here's all the key information about the schedule:</p>
+        <p data-lang="de">Hier findet Ihr alle wichtigen Infos zum Ablauf:</p>
+        <h3>📍Civil Wedding Ceremony</h3>
         <address>
           <a
             href="https://maps.app.goo.gl/HUdhQDD9EcjgpSTh7"
@@ -198,6 +209,8 @@
 
     <footer class="text-center text-sm py-8 px-6 bg-[#f7e6dc] text-[#333]">
       <p data-lang="en">Thank you for being part of our special day! ❤️</p>
+      <button class="" onclick="setLanguage('en')" title="English">🇬🇧</button>
+      <button class="" onclick="setLanguage('de')" title="Deutsch">🇩🇪</button>
       <p class="mt-2" data-lang="en">
         Created with love by
         <a
