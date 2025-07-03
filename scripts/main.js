@@ -21,6 +21,21 @@ console.log("Wedding page loaded");
 
 // setContentLanguage();
 
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+            observer.unobserve(entry.target); // trigger only once
+        }
+    });
+}, {
+    threshold: 0.1
+});
+
+document.querySelectorAll('.fade-in-up').forEach((el) => {
+    observer.observe(el);
+});
+
 function setLanguage(lang) {
     localStorage.setItem('lang_selected', lang);
     document.querySelectorAll('[data-lang]').forEach(el => {
