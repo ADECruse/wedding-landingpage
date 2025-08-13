@@ -25,7 +25,7 @@
       <img
         src="images/axel-katharina-standing.jpeg"
         alt="Couple photo"
-        class="w-full max-w-3xl h-auto max-h-[250px] object-cover mx-auto mb-8 lg:rounded-lg lg:max-h-[550px]"
+        class="w-full max-w-3xl h-auto max-h-[250px] md:max-h-[450px] object-cover mx-auto mb-8 lg:rounded-lg lg:max-h-[550px]"
       />
       <h1 class="font-great-vibes text-4xl m-0 lg:text-5xl">
         Katharina & Axel
@@ -42,150 +42,154 @@
         <h2 class="text-2xl font-bold mb-2 text-center" data-lang="de">
           16. August 2025
         </h2>
-        <p data-lang="en">
+        <p class="text-center" data-lang="en">
           We're beyond excited to celebrate this special day with you!
         </p>
-        <p data-lang="de">
+        <p class="text-center" data-lang="de">
           Wir freuen uns riesig, diesen besonderen Tag mit Euch zu feiern!
         </p>
-        <p data-lang="en">Here's all the key information about the schedule:</p>
-        <p data-lang="de">Hier findet Ihr alle wichtigen Infos zum Ablauf:</p>
+        <!-- <p data-lang="en">Here's all the key information about the schedule:</p>
+        <p data-lang="de">Hier findet Ihr alle wichtigen Infos zum Ablauf:</p> -->
       </section>
-      <section
-        class="max-w-3xl mx-auto px-4 py-0 mb-10 text-center"
-        data-lang="en"
-      >
-        <div class="divide-y divide-gray-200 text-gray-800">
-          <div class="pb-10 fade-in-up">
-            <h3 class="text-xl font-semibold">Civil Wedding Ceremony</h3>
-            <p class="text-sm text-gray-500 mt-1">
-              Start: 8:45 AM · Duration: ~20 minutes
-            </p>
-            <p class="mt-1">
-              <a
-                href="https://maps.app.goo.gl/HUdhQDD9EcjgpSTh7"
-                target="_blank"
-                class="text-blue-600 hover:underline"
-              >
-                Schloss Mirabell, Marble Hall<br />
-                Mirabellplatz 4, 5020 Salzburg
-              </a>
-            </p>
-            <p class="mt-1 text-gray-600">
-              Group photos in the palace garden afterwards
-            </p>
+
+      
+
+      <section class="max-w-3xl mx-auto px-4 py-0 mb-10">
+        <h2 class="text-2xl font-bold mb-6 text-center" data-lang="en">Wedding Schedule</h2>
+        <h2 class="text-2xl font-bold mb-6 text-center" data-lang="de">Hochzeitsablauf</h2>
+        
+        <!-- Timeline Container -->
+        <div class="relative">
+          <!-- Timeline Line -->
+          <div class="absolute left-8 top-0 w-0.5 bg-gray-300" style="height: calc(100% - 6rem);"></div>
+          
+          <!-- Event 1: Civil Ceremony -->
+          <div class="relative mb-8 fade-in-up">
+            <div class="flex items-start">
+              <div class="flex-shrink-0 w-16 h-16 bg-[#f7e6dc] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                <span class="text-sm font-semibold text-[#333]">8:45</span>
+              </div>
+              <div class="ml-6 flex-1">
+                <h3 class="text-xl font-semibold text-[#333]" data-lang="en">Civil Wedding Ceremony</h3>
+                <h3 class="text-xl font-semibold text-[#333]" data-lang="de">Standesamtliche Trauung</h3>
+                <div class="mt-2 p-3 bg-gray-50 rounded-lg">
+                  <p class="font-medium">Schloss Mirabell, Marble Hall</p>
+                  <a href="https://maps.app.goo.gl/HUdhQDD9EcjgpSTh7" target="_blank" class="text-blue-600 hover:underline text-sm">
+                    Mirabellplatz 4, 5020 Salzburg
+                  </a>
+                  <p class="text-gray-600 text-sm mt-1" data-lang="en">Duration: ~20 minutes</p>
+                  <p class="text-gray-600 text-sm mt-1" data-lang="de">Dauer: ca. 20 Minuten</p>
+                  <p class="text-gray-600 text-sm mt-1" data-lang="en">Group photos in the palace garden afterwards</p>
+                  <p class="text-gray-600 text-sm mt-1" data-lang="de">Anschließend Gruppenfotos im Schlossgarten</p>
+                </div>
+              </div>
+            </div>
           </div>
 
-          <div class="py-10 fade-in-up">
-            <h3 class="text-xl font-semibold">Parking</h3>
-            <p class="mt-1 text-gray-600">
-              Mirabell-Congress-Garage (entry/exit via Schrannengasse)
-            </p>
+          <!-- Event 2: Parking Info -->
+          <div class="relative mb-8 fade-in-up">
+            <div class="flex items-start">
+              <div class="flex-shrink-0 w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                <span class="text-sm font-semibold text-blue-800">ℹ️</span>
+              </div>
+              <div class="ml-6 flex-1">
+                <h3 class="text-xl font-semibold text-[#333]" data-lang="en">Parking Information</h3>
+                <h3 class="text-xl font-semibold text-[#333]" data-lang="de">Parken</h3>
+                <div class="mt-2 p-3 bg-gray-50 rounded-lg">
+                  <p class="font-medium">Mirabell-Congress-Garage</p>
+                  <p class="text-gray-600 text-sm" data-lang="en">Entry/exit via Schrannengasse</p>
+                  <p class="text-gray-600 text-sm" data-lang="de">Ein-/Ausfahrt über Schrannengasse</p>
+                </div>
+              </div>
+            </div>
           </div>
 
-          <div class="py-10 fade-in-up">
-            <h3 class="text-xl font-semibold">Shuttle Departure</h3>
-            <p class="text-sm text-gray-500 mt-1">Departs: 10:30 AM</p>
-            <p class="mt-1 text-gray-600">From: In front of Schloss Mirabell</p>
-            <p class="mt-1 text-gray-600">
-              To: Schloss Fuschl, Rosewood Hotel<br />
-              Schloss-Straße 19, 5322 Hof bei Salzburg
-            </p>
+          <!-- Event 3: Shuttle Departure -->
+          <div class="relative mb-8 fade-in-up">
+            <div class="flex items-start">
+              <div class="flex-shrink-0 w-16 h-16 bg-[#f7e6dc] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                <span class="text-sm font-semibold text-[#333]">10:30</span>
+              </div>
+              <div class="ml-6 flex-1">
+                <h3 class="text-xl font-semibold text-[#333]" data-lang="en">Shuttle to Schloss Fuschl, Rosewood Hotel</h3>
+                <h3 class="text-xl font-semibold text-[#333]" data-lang="de">Shuttlebus nach Schloss Fuschl, Rosewood Hotel</h3>
+                <div class="mt-2 p-3 bg-gray-50 rounded-lg">
+                  <p class="font-medium" data-lang="en">Shuttle departs from the front of Schloss Mirabell</p>
+                  <p class="font-medium" data-lang="de">Shuttlebus fährt vor Schloss Mirabell ab</p>
+                  <p class="text-gray-600 text-sm">
+                    <a href="https://maps.app.goo.gl/aa79jZMHmw74roL77" target="_blank" class="text-blue-600 hover:underline">
+                      Rosewood Schloss Fuschl
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
 
-          <div class="py-10 fade-in-up">
-            <h3 class="text-xl font-semibold">Champagne Reception</h3>
-            <p class="text-sm text-gray-500 mt-1">
-              11:00 AM on the terrace of Schloss Fuschl
-            </p>
+          <!-- Event 4: Champagne Reception -->
+          <div class="relative mb-8 fade-in-up">
+            <div class="flex items-start">
+              <div class="flex-shrink-0 w-16 h-16 bg-[#f7e6dc] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                <span class="text-sm font-semibold text-[#333]">11:00</span>
+              </div>
+              <div class="ml-6 flex-1">
+                <h3 class="text-xl font-semibold text-[#333]" data-lang="en">Champagne Reception</h3>
+                <h3 class="text-xl font-semibold text-[#333]" data-lang="de">Champagnerempfang</h3>
+                <div class="mt-2 p-3 bg-gray-50 rounded-lg">
+                  <p class="font-medium" data-lang="en">Terrace of Schloss Fuschl</p>
+                  <p class="font-medium" data-lang="de">Terrasse von Schloss Fuschl</p>
+                </div>
+              </div>
+            </div>
           </div>
 
-          <div class="py-10 fade-in-up">
-            <h3 class="text-xl font-semibold">Lunch & Time to Enjoy</h3>
-            <p class="text-sm text-gray-500 mt-1">
-              12:00 PM in the ballroom of Schloss Fuschl
-            </p>
+          <!-- Event 5: Lunch -->
+          <div class="relative mb-8 fade-in-up">
+            <div class="flex items-start">
+              <div class="flex-shrink-0 w-16 h-16 bg-[#f7e6dc] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                <span class="text-sm font-semibold text-[#333]">12:00</span>
+              </div>
+              <div class="ml-6 flex-1">
+                <h3 class="text-xl font-semibold text-[#333]" data-lang="en">Lunch & Celebration</h3>
+                <h3 class="text-xl font-semibold text-[#333]" data-lang="de">Lunch & Zeit zum Genießen</h3>
+                <div class="mt-2 p-3 bg-gray-50 rounded-lg">
+                  <p class="font-medium" data-lang="en">Ballroom of Schloss Fuschl</p>
+                  <p class="font-medium" data-lang="de">Ballsaal von Schloss Fuschl</p>
+                  <p class="text-gray-600 text-sm" data-lang="en">Time to enjoy and celebrate together</p>
+                  <p class="text-gray-600 text-sm" data-lang="de">Zeit zum Genießen und gemeinsam Feiern</p>
+                </div>
+              </div>
+            </div>
           </div>
 
-          <div class="py-10 fade-in-up">
-            <h3 class="text-xl font-semibold">End of the Event</h3>
-            <p class="text-sm text-gray-500 mt-1">
-              Around 5:00 PM, return shuttle to Salzburg
-            </p>
-          </div>
-
-          <div class="pt-10 fade-in-up">
-            <h3 class="text-xl font-semibold">Dresscode</h3>
-            <p class="text-sm text-gray-500 mt-1">
-              Classic & Elegant - Summer Chic
-            </p>
+          <!-- Event 6: Event End -->
+          <div class="relative mb-8 fade-in-up">
+            <div class="flex items-start">
+              <div class="flex-shrink-0 w-16 h-16 bg-[#f7e6dc] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+                <span class="text-sm font-semibold text-[#333]">17:00</span>
+              </div>
+              <div class="ml-6 flex-1">
+                <h3 class="text-xl font-semibold text-[#333]" data-lang="en">Event Conclusion</h3>
+                <h3 class="text-xl font-semibold text-[#333]" data-lang="de">Veranstaltungsende</h3>
+                <div class="mt-2 p-3 bg-gray-50 rounded-lg">
+                  <p class="font-medium" data-lang="en">Return shuttle to Salzburg</p>
+                  <p class="font-medium" data-lang="de">Rückfahrt mit dem Shuttle nach Salzburg</p>
+                  <p class="text-gray-600 text-sm" data-lang="en">Thank you for celebrating with us!</p>
+                  <p class="text-gray-600 text-sm" data-lang="de">Vielen Dank, dass Ihr mit uns gefeiert habt!</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      <section
-        class="max-w-3xl mx-auto px-4 py-0 mb-10 text-center"
-        data-lang="de"
-      >
-        <div class="text-gray-800">
-          <div class="pb-10 fade-in-up">
-            <h3 class="text-xl font-semibold">Standesamtliche Trauung</h3>
-            <p class="text-sm text-gray-500 mt-1">
-              Beginn: 8:45 Uhr · Dauer: ca. 20 Minuten
-            </p>
-            <p class="mt-1">
-              <a
-                href="https://maps.app.goo.gl/HUdhQDD9EcjgpSTh7"
-                target="_blank"
-                class="text-blue-600 hover:underline"
-              >
-                Schloss Mirabell, Marmorsaal<br />
-                Mirabellplatz 4, 5020 Salzburg
-              </a>
-            </p>
-            <p class="mt-1 text-gray-600">
-              Anschließend Gruppenfotos im Schlossgarten
-            </p>
-          </div>
 
-          <div class="py-10 fade-in-up">
-            <h3 class="text-xl font-semibold">Parken</h3>
-            <p class="mt-1 text-gray-600">
-              Mirabell-Congress-Garage (Ein-/Ausfahrt über Schrannengasse)
-            </p>
-          </div>
-
-          <div class="py-10 fade-in-up">
-            <h3 class="text-xl font-semibold">Shuttlebus-Abfahrt</h3>
-            <p class="text-sm text-gray-500 mt-1">
-              10:30 Uhr vor Schloss Mirabell
-            </p>
-            <p class="mt-1 text-gray-600">
-              Ziel: Schloss Fuschl, Rosewood Hotel<br />
-              Schloss-Straße 19, 5322 Hof bei Salzburg
-            </p>
-          </div>
-
-          <div class="py-10 fade-in-up">
-            <h3 class="text-xl font-semibold">Champagnerempfang</h3>
-            <p class="text-sm text-gray-500 mt-1">
-              11:00 Uhr auf der Terrasse von Schloss Fuschl
-            </p>
-          </div>
-
-          <div class="py-10 fade-in-up">
-            <h3 class="text-xl font-semibold">Lunch & Zeit zum Genießen</h3>
-            <p class="text-sm text-gray-500 mt-1">
-              12:00 Uhr im Ballsaal von Schloss Fuschl
-            </p>
-          </div>
-
-          <div class="pt-10 fade-in-up">
-            <h3 class="text-xl font-semibold">Veranstaltungsende</h3>
-            <p class="text-sm text-gray-500 mt-1">
-              ca. 17:00 Uhr, anschließend Rückfahrt mit dem Shuttle nach
-              Salzburg
-            </p>
-          </div>
+      <!-- Dress Code Section - Moved to the top -->
+      <section class="max-w-3xl mx-auto px-4 py-0 mb-12">
+        <div class="text-center">
+          <h3 class="text-2xl font-semibold text-[#333] mb-4" data-lang="en">Dress Code</h3>
+          <h3 class="text-2xl font-semibold text-[#333] mb-4" data-lang="de">Dresscode</h3>
+          <p class="text-lg font-medium text-[#333] mb-2" data-lang="en">Classic & Elegant - Summer Chic</p>
+          <p class="text-lg font-medium text-[#333] mb-2" data-lang="de">Klassisch & Elegant - Sommer Chic</p>
         </div>
       </section>
 
@@ -329,8 +333,8 @@
           Statt Geschenken wünschen wir uns daher Unterstützung für diese
           unvergessliche Reise.
         </p>
-        <p data-lang="en">Thank you for being part of it! 🧡</p>
-        <p data-lang="de">Vielen Dank, dass Ihr Teil davon seid! 🧡</p>
+        <p class="text-center font-bold" data-lang="en">Thank you for being part of it! 🧡</p>
+        <p class="text-center font-bold" data-lang="de">Vielen Dank, dass Ihr Teil davon seid! 🧡</p>
         <div class="text-center mt-8 flex justify-center">
           <a
             href="https://www.paypal.me/AxelMW86"
