@@ -1,25 +1,4 @@
 console.log("Wedding page loaded");
-// const browserLang = navigator.language.slice(0, 2);
-// console.log(browserLang);
-
-// langEn = document.querySelectorAll("[data-lang='en']");
-// langDe = document.querySelectorAll("[data-lang='de']");
-// console.log(langEn);
-// console.log(langDe);
-
-// function setContentLanguage(lang) {
-//     if (browserLang == "en" || lang == "en") {
-//         langDe.forEach(element => {
-//             element.style.display = "none";
-//         });
-//     } else if (lang == "de") {
-//         langEn.forEach(element => {
-//             element.style.display = "none";
-//         })
-//     }
-// }
-
-// setContentLanguage();
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
@@ -48,3 +27,15 @@ const storedLang = localStorage.getItem('lang_selected');
 const browserLang = navigator.language || navigator.userLanguage;
 const defaultLang = storedLang || (browserLang.startsWith('de') ? 'de' : 'en');
 setLanguage(defaultLang);
+
+// Update copyright year automatically
+function updateCopyrightYear() {
+    const currentYear = new Date().getFullYear();
+    const yearElement = document.getElementById('current-year');
+    if (yearElement) {
+        yearElement.textContent = currentYear;
+    }
+}
+
+// Call the function when the page loads
+updateCopyrightYear();
