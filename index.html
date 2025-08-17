@@ -11,17 +11,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/output.css" />
-    <style>
-      body {
-        font-family: "Open Sans", sans-serif;
-      }
-      .font-great-vibes {
-        font-family: "Great Vibes", cursive;
-      }
-    </style>
+
   </head>
   <body class="bg-[#fffaf6] text-[#333] m-0">
-    <header class="bg-[#f7e6dc] text-center pb-8 px-0 lg:py-8 lg:px-6">
+    <header class="bg-[#f7e6dc] text-center pb-8 px-0 lg:py-8 lg:px-6" role="banner">
       <img
         src="images/axel-katharina-standing.jpeg"
         alt="Couple photo"
@@ -30,22 +23,22 @@
       <h1 class="font-great-vibes text-4xl m-0 lg:text-5xl">
         Katharina & Axel
       </h1>
-      <p class="text-xl mt-2" data-lang="en">We're getting married!</p>
-      <p class="text-xl mt-2" data-lang="de">Wir heiraten!</p>
+      <p class="text-xl mt-2" data-lang="en" aria-hidden="false">We're getting married!</p>
+      <p class="text-xl mt-2" data-lang="de" aria-hidden="true">Wir heiraten!</p>
     </header>
 
-    <main class="max-w-3xl mx-auto py-8 px-6">
+    <main class="max-w-3xl mx-auto py-8 px-6" aria-label="Wedding Information">
       <section class="flex flex-col justify-center items-center mb-8 space-y-5">
-        <h2 class="text-2xl font-bold mb-2 text-center" data-lang="en">
+        <h2 class="text-2xl font-bold mb-2 text-center" data-lang="en" aria-hidden="false">
           August 16, 2025
         </h2>
-        <h2 class="text-2xl font-bold mb-2 text-center" data-lang="de">
+        <h2 class="text-2xl font-bold mb-2 text-center" data-lang="de" aria-hidden="true">
           16. August 2025
         </h2>
-        <p class="text-center" data-lang="en">
+        <p class="text-center" data-lang="en" aria-hidden="false">
           We're beyond excited to celebrate this special day with you!
         </p>
-        <p class="text-center" data-lang="de">
+        <p class="text-center" data-lang="de" aria-hidden="true">
           Wir freuen uns riesig, diesen besonderen Tag mit Euch zu feiern!
         </p>
       </section>
@@ -53,66 +46,66 @@
       
 
       <section class="max-w-3xl mx-auto px-4 py-0 mb-10">
-        <h2 class="text-2xl font-bold mb-6 text-center" data-lang="en">Wedding Schedule</h2>
-        <h2 class="text-2xl font-bold mb-6 text-center" data-lang="de">Hochzeitsablauf</h2>
+        <h2 class="text-2xl font-bold mb-6 text-center" data-lang="en" aria-hidden="false">Wedding Schedule</h2>
+        <h2 class="text-2xl font-bold mb-6 text-center" data-lang="de" aria-hidden="true">Hochzeitsablauf</h2>
         
         
-        <div class="relative">
+        <div class="relative" role="list" aria-label="Wedding Schedule Timeline">
           
-          <div class="absolute left-8 top-0 w-0.5 bg-gray-300" style="height: calc(100% - 6rem);"></div>
+          <div class="absolute left-8 top-0 w-0.5 bg-gray-300" style="height: calc(100% - 6rem);" aria-hidden="true"></div>
           
-          <div class="relative mb-8 fade-in-up">
+          <div class="relative mb-8 fade-in-up" role="listitem">
             <div class="flex items-start">
               <div class="flex-shrink-0 w-16 h-16 bg-[#f7e6dc] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                 <span class="text-sm font-semibold text-[#333]">8:45</span>
               </div>
               <div class="ml-6 flex-1">
-                <h3 class="text-xl font-semibold text-[#333]" data-lang="en">Civil Wedding Ceremony</h3>
-                <h3 class="text-xl font-semibold text-[#333]" data-lang="de">Standesamtliche Trauung</h3>
+                <h3 class="text-xl font-semibold text-[#333]" data-lang="en" aria-hidden="false">Civil Wedding Ceremony</h3>
+                <h3 class="text-xl font-semibold text-[#333]" data-lang="de" aria-hidden="true">Standesamtliche Trauung</h3>
                 <div class="mt-2 p-3 bg-gray-50 rounded-lg">
                   <p class="font-medium">Schloss Mirabell, Marble Hall</p>
-                  <a href="https://maps.app.goo.gl/HUdhQDD9EcjgpSTh7" target="_blank" class="text-blue-600 hover:underline text-sm">
+                  <a href="https://maps.app.goo.gl/HUdhQDD9EcjgpSTh7" target="_blank" class="text-blue-600 hover:underline text-sm" aria-label="View Schloss Mirabell on Google Maps">
                     Mirabellplatz 4, 5020 Salzburg
                   </a>
-                  <p class="text-gray-600 text-sm mt-1" data-lang="en">Duration: ~20 minutes</p>
-                  <p class="text-gray-600 text-sm mt-1" data-lang="de">Dauer: ca. 20 Minuten</p>
-                  <p class="text-gray-600 text-sm mt-1" data-lang="en">Group photos in the palace garden afterwards</p>
-                  <p class="text-gray-600 text-sm mt-1" data-lang="de">Anschließend Gruppenfotos im Schlossgarten</p>
+                  <p class="text-gray-600 text-sm mt-1" data-lang="en" aria-hidden="false">Duration: ~20 minutes</p>
+                  <p class="text-gray-600 text-sm mt-1" data-lang="de" aria-hidden="true">Dauer: ca. 20 Minuten</p>
+                  <p class="text-gray-600 text-sm mt-1" data-lang="en" aria-hidden="false">Group photos in the palace garden afterwards</p>
+                  <p class="text-gray-600 text-sm mt-1" data-lang="de" aria-hidden="true">Anschließend Gruppenfotos im Schlossgarten</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="relative mb-8 fade-in-up">
+          <div class="relative mb-8 fade-in-up" role="listitem">
             <div class="flex items-start">
               <div class="flex-shrink-0 w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center border-4 border-white shadow-md">
                 <span class="text-sm font-semibold text-blue-800">ℹ️</span>
               </div>
               <div class="ml-6 flex-1">
-                <h3 class="text-xl font-semibold text-[#333]" data-lang="en">Parking Information</h3>
-                <h3 class="text-xl font-semibold text-[#333]" data-lang="de">Parken</h3>
+                <h3 class="text-xl font-semibold text-[#333]" data-lang="en" aria-hidden="false">Parking Information</h3>
+                <h3 class="text-xl font-semibold text-[#333]" data-lang="de" aria-hidden="true">Parken</h3>
                 <div class="mt-2 p-3 bg-gray-50 rounded-lg">
                   <p class="font-medium">Mirabell-Congress-Garage</p>
-                  <p class="text-gray-600 text-sm" data-lang="en">Entry/exit via Schrannengasse</p>
-                  <p class="text-gray-600 text-sm" data-lang="de">Ein-/Ausfahrt über Schrannengasse</p>
+                  <p class="text-gray-600 text-sm" data-lang="en" aria-hidden="false">Entry/exit via Schrannengasse</p>
+                  <p class="text-gray-600 text-sm" data-lang="de" aria-hidden="true">Ein-/Ausfahrt über Schrannengasse</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="relative mb-8 fade-in-up">
+          <div class="relative mb-8 fade-in-up" role="listitem">
             <div class="flex items-start">
               <div class="flex-shrink-0 w-16 h-16 bg-[#f7e6dc] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                 <span class="text-sm font-semibold text-[#333]">10:30</span>
               </div>
               <div class="ml-6 flex-1">
-                <h3 class="text-xl font-semibold text-[#333]" data-lang="en">Shuttle to Schloss Fuschl, Rosewood Hotel</h3>
-                <h3 class="text-xl font-semibold text-[#333]" data-lang="de">Shuttlebus nach Schloss Fuschl, Rosewood Hotel</h3>
+                <h3 class="text-xl font-semibold text-[#333]" data-lang="en" aria-hidden="false">Shuttle to Schloss Fuschl, Rosewood Hotel</h3>
+                <h3 class="text-xl font-semibold text-[#333]" data-lang="de" aria-hidden="true">Shuttlebus nach Schloss Fuschl, Rosewood Hotel</h3>
                 <div class="mt-2 p-3 bg-gray-50 rounded-lg">
-                  <p class="font-medium" data-lang="en">Shuttle departs from the front of Schloss Mirabell</p>
-                  <p class="font-medium" data-lang="de">Shuttlebus fährt vor Schloss Mirabell ab</p>
+                  <p class="font-medium" data-lang="en" aria-hidden="false">Shuttle departs from the front of Schloss Mirabell</p>
+                  <p class="font-medium" data-lang="de" aria-hidden="true">Shuttlebus fährt vor Schloss Mirabell ab</p>
                   <p class="text-gray-600 text-sm">
-                    <a href="https://maps.app.goo.gl/aa79jZMHmw74roL77" target="_blank" class="text-blue-600 hover:underline">
+                    <a href="https://maps.app.goo.gl/aa79jZMHmw74roL77" target="_blank" class="text-blue-600 hover:underline" aria-label="View Rosewood Schloss Fuschl on Google Maps">
                       Rosewood Schloss Fuschl
                     </a>
                   </p>
@@ -121,53 +114,53 @@
             </div>
           </div>
 
-          <div class="relative mb-8 fade-in-up">
+          <div class="relative mb-8 fade-in-up" role="listitem">
             <div class="flex items-start">
               <div class="flex-shrink-0 w-16 h-16 bg-[#f7e6dc] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                 <span class="text-sm font-semibold text-[#333]">11:00</span>
               </div>
               <div class="ml-6 flex-1">
-                <h3 class="text-xl font-semibold text-[#333]" data-lang="en">Champagne Reception</h3>
-                <h3 class="text-xl font-semibold text-[#333]" data-lang="de">Champagnerempfang</h3>
+                <h3 class="text-xl font-semibold text-[#333]" data-lang="en" aria-hidden="false">Champagne Reception</h3>
+                <h3 class="text-xl font-semibold text-[#333]" data-lang="de" aria-hidden="true">Champagnerempfang</h3>
                 <div class="mt-2 p-3 bg-gray-50 rounded-lg">
-                  <p class="font-medium" data-lang="en">Terrace of Schloss Fuschl</p>
-                  <p class="font-medium" data-lang="de">Terrasse von Schloss Fuschl</p>
+                  <p class="font-medium" data-lang="en" aria-hidden="false">Terrace of Schloss Fuschl</p>
+                  <p class="font-medium" data-lang="de" aria-hidden="true">Terrasse von Schloss Fuschl</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="relative mb-8 fade-in-up">
+          <div class="relative mb-8 fade-in-up" role="listitem">
             <div class="flex items-start">
               <div class="flex-shrink-0 w-16 h-16 bg-[#f7e6dc] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                 <span class="text-sm font-semibold text-[#333]">12:00</span>
               </div>
               <div class="ml-6 flex-1">
-                <h3 class="text-xl font-semibold text-[#333]" data-lang="en">Lunch & Celebration</h3>
-                <h3 class="text-xl font-semibold text-[#333]" data-lang="de">Lunch & Zeit zum Genießen</h3>
+                <h3 class="text-xl font-semibold text-[#333]" data-lang="en" aria-hidden="false">Lunch & Celebration</h3>
+                <h3 class="text-xl font-semibold text-[#333]" data-lang="de" aria-hidden="true">Lunch & Zeit zum Genießen</h3>
                 <div class="mt-2 p-3 bg-gray-50 rounded-lg">
-                  <p class="font-medium" data-lang="en">Ballroom of Schloss Fuschl</p>
-                  <p class="font-medium" data-lang="de">Ballsaal von Schloss Fuschl</p>
-                  <p class="text-gray-600 text-sm" data-lang="en">Time to enjoy and celebrate together</p>
-                  <p class="text-gray-600 text-sm" data-lang="de">Zeit zum Genießen und gemeinsam Feiern</p>
+                  <p class="font-medium" data-lang="en" aria-hidden="false">Ballroom of Schloss Fuschl</p>
+                  <p class="font-medium" data-lang="de" aria-hidden="true">Ballsaal von Schloss Fuschl</p>
+                  <p class="text-gray-600 text-sm" data-lang="en" aria-hidden="false">Time to enjoy and celebrate together</p>
+                  <p class="text-gray-600 text-sm" data-lang="de" aria-hidden="true">Zeit zum Genießen und gemeinsam Feiern</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="relative mb-8 fade-in-up">
+          <div class="relative mb-8 fade-in-up" role="listitem">
             <div class="flex items-start">
               <div class="flex-shrink-0 w-16 h-16 bg-[#f7e6dc] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                 <span class="text-sm font-semibold text-[#333]">17:00</span>
               </div>
               <div class="ml-6 flex-1">
-                <h3 class="text-xl font-semibold text-[#333]" data-lang="en">Event Conclusion</h3>
-                <h3 class="text-xl font-semibold text-[#333]" data-lang="de">Veranstaltungsende</h3>
+                <h3 class="text-xl font-semibold text-[#333]" data-lang="en" aria-hidden="false">Event Conclusion</h3>
+                <h3 class="text-xl font-semibold text-[#333]" data-lang="de" aria-hidden="true">Veranstaltungsende</h3>
                 <div class="mt-2 p-3 bg-gray-50 rounded-lg">
-                  <p class="font-medium" data-lang="en">Return shuttle to Salzburg</p>
-                  <p class="font-medium" data-lang="de">Rückfahrt mit dem Shuttle nach Salzburg</p>
-                  <p class="text-gray-600 text-sm" data-lang="en">Thank you for celebrating with us!</p>
-                  <p class="text-gray-600 text-sm" data-lang="de">Vielen Dank, dass Ihr mit uns gefeiert habt!</p>
+                  <p class="font-medium" data-lang="en" aria-hidden="false">Return shuttle to Salzburg</p>
+                  <p class="font-medium" data-lang="de" aria-hidden="true">Rückfahrt mit dem Shuttle nach Salzburg</p>
+                  <p class="text-gray-600 text-sm" data-lang="en" aria-hidden="false">Thank you for celebrating with us!</p>
+                  <p class="text-gray-600 text-sm" data-lang="de" aria-hidden="true">Vielen Dank, dass Ihr mit uns gefeiert habt!</p>
                 </div>
               </div>
             </div>
@@ -177,10 +170,10 @@
 
       <section class="max-w-3xl mx-auto px-4 py-0 mb-12">
         <div class="text-center">
-          <h3 class="text-2xl font-semibold text-[#333] mb-4" data-lang="en">Dress Code</h3>
-          <h3 class="text-2xl font-semibold text-[#333] mb-4" data-lang="de">Dresscode</h3>
-          <p class="text-lg font-medium text-[#333] mb-2" data-lang="en">Classic & Elegant - Summer Chic</p>
-          <p class="text-lg font-medium text-[#333] mb-2" data-lang="de">Klassisch & Elegant - Sommer Chic</p>
+          <h3 class="text-2xl font-semibold text-[#333] mb-4" data-lang="en" aria-hidden="false">Dress Code</h3>
+          <h3 class="text-2xl font-semibold text-[#333] mb-4" data-lang="de" aria-hidden="true">Dresscode</h3>
+          <p class="text-lg font-medium text-[#333] mb-2" data-lang="en" aria-hidden="false">Classic & Elegant - Summer Chic</p>
+          <p class="text-lg font-medium text-[#333] mb-2" data-lang="de" aria-hidden="true">Klassisch & Elegant - Sommer Chic</p>
         </div>
       </section>
 
@@ -212,62 +205,62 @@
           alt="Axel and Katharina walking along the beach"
           class="w-full max-w-3xl h-auto max-h-[250px] object-cover mx-auto mb-8 lg:rounded-lg lg:max-h-[550px]"
         />
-        <h2 class="text-2xl font-bold mb-2 text-center" data-lang="en">
+        <h2 class="text-2xl font-bold mb-2 text-center" data-lang="en" aria-hidden="false">
           About us
         </h2>
-        <h2 class="text-2xl font-bold mb-2 text-center" data-lang="de">
+        <h2 class="text-2xl font-bold mb-2 text-center" data-lang="de" aria-hidden="true">
           Über uns
         </h2>
-        <p data-lang="en">
+        <p data-lang="en" aria-hidden="false">
           Our story began on August 11, 2020 on the Reichenbach Bridge in Munich
           - 30 degrees, right in the middle of the pandemic. Axel had just
           returned from Sardinia, Kati from celebrating her birthday in Ibiza.
           After a long walk through the city, it quickly became clear: we wanted
           to see each other again.
         </p>
-        <p data-lang="de">
+        <p data-lang="de" aria-hidden="true">
           Unsere Geschichte begann am 11. August 2020 auf der Reichenbachbrücke
           in München - bei 30 Grad und mitten in der Pandemie. Axel kam gerade
           aus Sardinien zurück, Kati von ihrem Geburtstag auf Ibiza. Nach einem
           langen Spaziergang durch die Stadt war für uns beide schnell klar: Wir
           möchten uns wiedersehen.
         </p>
-        <p data-lang="en">
+        <p data-lang="en" aria-hidden="false">
           Since then, five years have flown by - filled with experiences,
           lessons learned together, big and small challenges overcome… and lots
           of pasta eaten. We've grown as a couple, learned from one another, and
           tackled many projects side by side - in everyday life, at work, and
           while traveling.
         </p>
-        <p data-lang="de">
+        <p data-lang="de" aria-hidden="true">
           Seitdem sind fünf Jahre vergangen, in denen wir viel erlebt, gemeinsam
           gelernt, kleine und große Herausforderungen gemeistert - und viel
           Pasta gegessen haben. Wir sind zusammen gewachsen, haben voneinander
           gelernt und viele Projekte gemeinsam umgesetzt - im Alltag, im Job,
           auf Reisen.
         </p>
-        <p data-lang="en">
+        <p data-lang="en" aria-hidden="false">
           Throughout everything, we've always made it a priority to care for our
           relationship and keep our love at the center.
         </p>
-        <p data-lang="de">
+        <p data-lang="de" aria-hidden="true">
           Was auch immer anstand - uns war immer wichtig, uns Zeit füreinander
           zu nehmen und unsere Liebe im Mittelpunkt zu behalten.
         </p>
-        <p data-lang="en">
+        <p data-lang="en" aria-hidden="false">
           On <b>July 27, 2024</b>, Axel finally asked Kati to marry him - in her
           home country, Portugal. Of course, she said yes.
         </p>
-        <p data-lang="de">
+        <p data-lang="de" aria-hidden="true">
           Am <b>27. Juli 2024</b> hat Axel Kati dann endlich in ihrem Heimatland
-          Portugal gefragt, ob sie ihn heiraten möchte. Natürlich hat sie „Ja“
+          Portugal gefragt, ob sie ihn heiraten möchte. Natürlich hat sie „Ja"
           gesagt.
         </p>
-        <p data-lang="en">
+        <p data-lang="en" aria-hidden="false">
           Now we're looking forward to the next chapter - and to celebrating
           this day with you!
         </p>
-        <p data-lang="de">
+        <p data-lang="de" aria-hidden="true">
           Jetzt freuen wir uns auf den nächsten Schritt - und darauf, diesen Tag
           mit Euch zu feiern.
         </p>
@@ -279,53 +272,53 @@
           alt="Masai Mara safari"
           class="w-full max-w-3xl h-auto max-h-[250px] object-cover mx-auto mb-8 lg:rounded-lg lg:max-h-[550px]"
         />
-        <h2 class="text-2xl font-bold mb-2 text-center" data-lang="en">
+        <h2 class="text-2xl font-bold mb-2 text-center" data-lang="en" aria-hidden="false">
           Our Honeymoon
         </h2>
-        <h2 class="text-2xl font-bold mb-2 text-center" data-lang="de">
+        <h2 class="text-2xl font-bold mb-2 text-center" data-lang="de" aria-hidden="true">
           Unsere Flitterwochen
         </h2>
-        <p data-lang="en">Kenya holds a very special place in our hearts.</p>
-        <p data-lang="de">
+        <p data-lang="en" aria-hidden="false">Kenya holds a very special place in our hearts.</p>
+        <p data-lang="de" aria-hidden="true">
           Kenia hat für uns einen ganz besonderen Platz in unseren Herzen.
         </p>
-        <p data-lang="en">
+        <p data-lang="en" aria-hidden="false">
           In 2024, on our first trip to Kenya, we discovered the breathtaking
           beauty of the Tsavo National Park - vast savannahs, glowing sunsets,
           and herds of elephants moving gracefully through nature. We were
           deeply moved.
         </p>
-        <p data-lang="de">
+        <p data-lang="de" aria-hidden="true">
           Schon 2024 haben wir auf unserer ersten gemeinsamen Fernreise dorthin
           - in den Tsavo Nationalpark - die unglaubliche Schönheit des Landes
           entdeckt: weite Savannen, leuchtende Sonnenuntergänge und
           Elefantenherden, die sich majestätisch durch die Natur bewegen. Wir
           waren tief berührt.
         </p>
-        <p data-lang="en">
+        <p data-lang="en" aria-hidden="false">
           For our honeymoon, we want to relive that dream with four
           unforgettable days on safari in the Masai Mara—right in the heart of
           the Great Migration, surrounded by Kenya's incredible wildlife. After
           that, we'll unwind with a few days of pure relaxation at the Almanara
           Boutique Hotel, nestled on the white sands of Diani Beach.
         </p>
-        <p data-lang="de">
+        <p data-lang="de" aria-hidden="true">
           Für unsere Flitterwochen möchten wir diesen Traum wieder aufleben
           lassen. 4 Tage Safari in der Masai Mara, inmitten der faszinierenden
           Tierwelt zur Zeit der großen Tierwanderung. Und im Anschluss ein paar
           Tage pure Entspannung im Almanara Boutique Hotel am weißen Sandstrand
           von Diani Beach.
         </p>
-        <p data-lang="en">
+        <p data-lang="en" aria-hidden="false">
           Instead of traditional gifts, we're wishing for support in making this
           unforgettable trip come true.
         </p>
-        <p data-lang="de">
+        <p data-lang="de" aria-hidden="true">
           Statt Geschenken wünschen wir uns daher Unterstützung für diese
           unvergessliche Reise.
         </p>
-        <p class="text-center font-bold" data-lang="en">Thank you for being part of it! 🧡</p>
-        <p class="text-center font-bold" data-lang="de">Vielen Dank, dass Ihr Teil davon seid! 🧡</p>
+        <p class="text-center font-bold" data-lang="en" aria-hidden="false">Thank you for being part of it! 🧡</p>
+        <p class="text-center font-bold" data-lang="de" aria-hidden="true">Vielen Dank, dass Ihr Teil davon seid! 🧡</p>
         <div class="text-center mt-8 flex justify-center">
           <a
             href="https://www.paypal.me/AxelMW86"
@@ -333,6 +326,7 @@
             title="with PayPal"
             class="bg-[#0070ba] text-white px-5 py-2 w-3xs rounded hover:bg-[#005c99] inline-block"
             data-lang="en"
+            aria-label="Contribute to our honeymoon fund via PayPal"
           >
             Contribute
           </a>
@@ -342,11 +336,12 @@
             title="Mit PayPal"
             class="bg-[#0070ba] text-white px-5 py-2 w-3xs rounded hover:bg-[#005c99] inline-block"
             data-lang="de"
+            aria-label="Unterstützen Sie unseren Flitterwochen-Fonds über PayPal"
           >
             Unterstützen
           </a>
         </div>
-        <ul>
+        <ul aria-label="Banking Details for Honeymoon Contributions">
           <li>Axel Meyer-Woelden</li>
           <li>Stadtsparkasse München</li>
           <li>IBAN: DE24 7015 0000 1003 6059 69</li>
@@ -355,7 +350,10 @@
       </section>
     </main>
 
-    <footer class="text-center text-sm py-8 px-6 bg-[#f7e6dc] text-[#333]">
+    <!-- Language announcer for screen readers -->
+    <div id="language-announcer" class="sr-only" role="status" aria-live="polite"></div>
+
+    <footer class="text-center text-sm py-8 px-6 bg-[#f7e6dc] text-[#333]" role="contentinfo">
       <button
         onclick="setLanguage('en')"
         class="text-2xl px-4 py-2 rounded-full bg-white shadow-md hover:bg-gray-100 transition"
@@ -377,6 +375,7 @@
           class="text-blue-600 hover:underline"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Visit Alan Cruse's website (opens in new tab)"
           >Alan Cruse</a
         >
       </p>

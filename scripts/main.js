@@ -17,9 +17,28 @@ document.querySelectorAll('.fade-in-up').forEach((el) => {
 
 function setLanguage(lang) {
     localStorage.setItem('lang_selected', lang);
+    
+    // Update aria-hidden attributes for accessibility AND display for visual layout
     document.querySelectorAll('[data-lang]').forEach(el => {
-        el.style.display = (el.getAttribute('data-lang') === lang) ? 'block' : 'none';
+        const isVisible = el.getAttribute('data-lang') === lang;
+        el.setAttribute('aria-hidden', !isVisible);
+        el.style.display = isVisible ? 'block' : 'none';
     });
+    
+    // Announce language change to screen readers
+    const announcer = document.getElementById('language-announcer');
+    if (announcer) {
+        const message = lang === 'en' ? 'Language switched to English' : 'Sprache auf Deutsch gewechselt';
+        announcer.textContent = message;
+        
+        // Clear the message after a short delay
+        setTimeout(() => {
+            announcer.textContent = '';
+        }, 1000);
+    }
+    
+    // Update document language attribute
+    document.documentElement.lang = lang;
 }
 
 // Detect browser language or use saved preference
